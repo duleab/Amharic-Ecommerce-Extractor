@@ -27,10 +27,6 @@ amharic-ecommerce-extractor/
 │   ├── 01_data_collection.ipynb    # Telegram data scraping
 │   ├── 02_data_preprocessing.ipynb # Data cleaning and normalization
 │   ├── 03_data_labeling.ipynb      # Entity labeling and validation
-│   ├── 04_model_finetuning.ipynb   # Model training and comparison
-│   ├── 05_model_comparison.ipynb   # Detailed model comparison
-│   ├── 06_model_interpretability.ipynb # SHAP/LIME analysis
-│   └── 07_vendor_scoring.ipynb     # Vendor analytics for lending
 ├── src/                     # Source code
 │   ├── data/                # Data collection and processing
 │   ├── models/              # Model training and evaluation
@@ -58,20 +54,7 @@ We have set up the project structure and implemented the following components:
 3. Finalize the model comparison and interpretability notebooks
 4. Prepare the interim and final reports
 
-## Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/amharic-ecommerce-extractor.git
-cd amharic-ecommerce-extractor
-
-# Create and activate a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -100,7 +83,3 @@ Follow the numbered notebooks in sequence:
 - afroxmlr
 - mBERT (Multilingual BERT)
 - DistilBERT
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
